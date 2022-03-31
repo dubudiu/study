@@ -78,15 +78,15 @@ int pop(SqStack *S,SElmtType *e){
 }
 
 
-int main() {
-    SqStack sqStack;
-    initStack(&sqStack);
-    push(&sqStack, 'A');
-    
-    while (!stackEmpty(&sqStack)) {
-        SElmtType e;
-        pop(&sqStack, &e);
-        printf("%c ", e);
-    }
-    return 0;
-}
+//int main() {
+//    SqStack sqStack;
+//    initStack(&sqStack);
+//    push(&sqStack, 'A');
+//    
+//    while (!stackEmpty(&sqStack)) {
+//        SElmtType e;
+//        pop(&sqStack, &e);
+//        printf("%c ", e);
+//    }
+//    return 0;
+//}
